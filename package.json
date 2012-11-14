@@ -1,6 +1,6 @@
 {
     "name":        "hosted-hubot",
-        "version":     "2.2.0",
+        "version":     "2.3.2",
         "author":      "GitHub Inc.",
         "keywords":    "github hubot campfire bot",
         "description": "A simple helpful Robot for your Company",
@@ -15,8 +15,9 @@
         },
 
         "dependencies": {
-            "hubot": "2.2.1",
-            "hubot-scripts": "2.0.8",
-            "optparse": "1.0.3"
+          "hubot": "2.3.4",
+          "hubot-scripts": "2.2.2",
+          "optparse": "1.0.3",
+          "jsdom": "0.2.14"
         }
 }
