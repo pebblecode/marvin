@@ -16,6 +16,7 @@
   "hubot": "2.3.4",
   "hubot-scripts": "2.2.2",
   "optparse": "1.0.3",
+  "cheerio": "0.10.5",
   "jsdom": "0.2.14"
   },
   "engines": {
