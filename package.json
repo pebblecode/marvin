@@ -22,9 +22,5 @@
   "optparse": "1.0.3",
   "cheerio": "0.10.5",
   "jsdom": "0.2.14"
-  },
-  "engines": {
-  "node": "0.6.x",
-  "npm": "1.0.x"
   }
 }
