@@ -23,6 +23,7 @@
   "dependencies": {
     "hubot": "2.6.2",
     "hubot-scripts": "2.5.3",
-    "optparse": "1.0.4"
+    "optparse": "1.0.4",
+    "cheerio": "latest"
   }
 }
