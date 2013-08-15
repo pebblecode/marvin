@@ -13,14 +13,16 @@
   "url" : "http://github.com/github/hubot.git"
   },
   "engines": {
-    "node": "0.8.x",
+    "node": "0.10.x",
     "npm":  "1.2.x"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/github/hubot.git"
+  },
   "dependencies": {
-  "hubot": "2.4.8",
-  "hubot-scripts": "2.4.2",
-  "optparse": "1.0.3",
-  "cheerio": "0.10.5",
-  "jsdom": "0.2.14"
+    "hubot": "2.6.2",
+    "hubot-scripts": "2.5.3",
+    "optparse": "1.0.4"
   }
 }
