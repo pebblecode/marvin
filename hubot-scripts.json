@@ -1,1 +1,12 @@
-["redis-brain.coffee", "shipit.coffee", "weather.coffee", "whos-turn.coffee", "haters.coffee"]
+[
+  "advice.coffee", 
+  "achievement_unlocked.coffee", 
+  "beerme.coffee", 
+  "chuck-norris.coffee",
+  "github-status.coffee",
+  "redis-brain.coffee", 
+  "shipit.coffee", 
+  "weather.coffee", 
+  "whos-turn.coffee", 
+  "haters.coffee"
+]
