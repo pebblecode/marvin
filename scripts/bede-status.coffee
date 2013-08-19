@@ -27,7 +27,7 @@ formatString = (string) ->
 dev01engine = (msg) ->
   msg.http('https://dev01-bingostars.bedegaming.net/2226/reg/0/0?Token=0')
     .headers("x-api-version": 2.1, Accept: 'application/json')
-    .get() (err, res, body) ->
+    .post() (err, res, body) ->
       if err
         out = err
       if res.statusCode == 200
@@ -56,7 +56,7 @@ dev01chat = (msg) ->
 qa01engine = (msg) ->
   msg.http('https://qa01-bingostars.bedegaming.net/2226/reg/0/0?Token=0')
     .headers("x-api-version": 2.1, Accept: 'application/json')
-    .get() (err, res, body) ->
+    .post() (err, res, body) ->
       if err
         out = err
       if res.statusCode == 200
